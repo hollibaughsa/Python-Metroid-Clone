@@ -1,0 +1,113 @@
+# Screen size
+S_WIDTH = 128
+S_HEIGHT = 120
+S_SCALE = 4
+
+# Room Attributes
+HEAT = 1
+BOSS = 2
+SAVE = 4
+ITEM = 8
+RAIN = 16
+SNOW = 32
+
+# Player states
+SPIN = 1
+AIR = 2
+BALL = 4
+HIT = 8
+LIQUID = 16
+FROZEN = 32
+SPEED = 64
+SSPARK = 128
+CHARGED = 256
+
+# Freeze types
+F_SPAWN = 1
+F_ELEV = 2
+F_SCENE = 3
+F_ICE = 4
+
+# Block attributes
+CRUMBLE = 1
+BREAK = 2
+BOMB = 4
+MISSILE = 8
+SUPER = 16
+GRENADE = 32
+PBOMB = 64
+BOOST = 128
+SCREW = 256
+FAKE = 512
+WATER = 1024
+ACID = 2048
+LAVA = 4096
+
+# Inventory Items
+I_BALL = 1
+I_BOMB = 2
+I_PBOMB = 4
+I_MISSILE = 8
+I_SUPER = 16
+I_GRENADE = 32
+I_CHARGE = 64
+I_ICE = 128
+I_SPAZER = 256
+I_WAVE = 512
+I_PLASMA = 1024
+I_VARIA = 2048
+I_GRAV = 4096
+I_HIJUMP = 8192
+I_SHOCK = 16384
+I_MJUMP = 32768
+I_SPEED = 65536
+
+# Beams
+B_ICE = 1
+B_SPAZER = 2
+B_WAVE = 4
+B_PLASMA = 8
+B_CHARGE = 16
+
+# Beam Damage
+D_NORMAL = 1
+D_ICE = 2
+D_SPAZER = 2
+D_WAVE = 4
+D_PLASMA = 4
+DM_CHARGE = 1.5
+
+# Beam coordinates
+F_NORMAL = (0, 0)
+F_ICE = (40, 0)
+F_WAVE = (0, 16)
+F_SPAZER = (40, 16)
+F_PLASMA = (0, 32)
+
+# Key States
+C_LEFT = 1
+C_RIGHT = 2
+C_UP = 4
+C_DOWN = 8
+C_JUMP = 16
+C_SHOOT = 32
+C_SECOND = 64
+C_DIAG = 128
+C_PAUSE = 256
+C_SELECT = 512
+
+# Misc.
+FRAME_DELAY = 3
+MAX_AIRTIME = 8
+GRAVITY = 0.5
+NORMAL_OFFX = 8
+NORMAL_OFFY = 16
+NORMAL_RECT = (10, 16)
+BALL_OFFX = 4
+BALL_OFFY = 8
+BALL_RECT = (8, 8)
+SPIN_RECT = (10, 16)
+COOLOFF = 6
+L_SHOT = (((9, 0), (11, 2), (14, 7), (11, 10), (8, 14)), \
+((7, 0), (5, 2), (2, 7), (5, 10), (8, 14)))
+SCHANNELS = 5
